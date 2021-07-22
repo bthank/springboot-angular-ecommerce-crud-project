@@ -7,7 +7,7 @@ import com.binu.ecommerce.entity.ProductCategory;
 
 // name of Json entry is productCategory; reference for Rest path is "/product-category"
 @RepositoryRestResource(collectionResourceRel = "productCategory", path = "product-category")
-public interface ProductCategoryRepository extends JpaRepository<ProductCategory,Integer>{
+public interface ProductCategoryRepository extends JpaRepository<ProductCategory,Long>{
 
 	
 	
